@@ -1,0 +1,66 @@
+/* TAGs HTML */
+
+body{
+	font-family: "Helvetica neue", Helvetica, Arial, sans-serif;
+	height: 100%;
+	font-size: 100%;
+	line-height: 1.5;
+	/*color: #fff;*/
+}
+
+header{
+	width: 100%;
+	height: 48px;
+	margin-bottom: 36px;
+	margin-top: 36px;
+}
+
+a{
+	padding: 3px;
+	color: #00ccff;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+article{
+	
+}
+
+img{
+	max-width: 100%;
+}
+
+ul{
+	float: right;
+}
+
+li{
+	padding: 2px;
+	color: #999;
+	display: inline;
+}
+
+/* Classes CSS */
+
+.body{
+	padding: 0;
+	margin: 0 auto;
+	max-width: 1128px;
+}
+
+.div_banner{
+	/*background: transparent url("../imagens/banner.jpg");*/
+}
+
+.logo{
+	float: left;
+	width: 243px;
+}
+
+.icon_serv{
+	
+}
