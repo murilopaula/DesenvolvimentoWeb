@@ -5,7 +5,7 @@ body{
 	height: 100%;
 	font-size: 100%;
 	line-height: 1.5;
-	/*color: #fff;*/
+	color: #444;
 }
 
 header{
@@ -26,34 +26,81 @@ a:hover{
 	text-decoration: underline;
 }
 
-article{
-	
-}
-
 img{
 	max-width: 100%;
 }
 
-ul{
+nav{
+	float: right;
+	width: 840px;
+}
+
+nav ul{
 	float: right;
 }
 
-li{
-	padding: 2px;
+nav li{
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+nav li a{
 	color: #999;
-	display: inline;
+}
+
+h1{ /* h1 da caixa de destaque */
+	font-size: 40px;
+	color: #FFF;
+	font-weight: 200;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h2{ /* h2 dos serviços */
+	font-size: 24px;
+}
+
+footer{
+	width: 100%;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+footer p{
+	font-size: 10px;
+	margin-bottom: 0;
 }
 
 /* Classes CSS */
 
-.body{
+.container{
 	padding: 0;
 	margin: 0 auto;
 	max-width: 1128px;
 }
 
 .div_banner{
-	/*background: transparent url("../imagens/banner.jpg");*/
+	background: url('../imagens/banner.jpg');
+	height: 450px;
+	margin-bottom: 48px;
+	position: relative;
+}
+
+.caixa{
+	position: absolute;
+	top: 48px;
+	background: rgba(0,0,0,0.6); /* rgba - a= alfa 0-1 nível de transparência*/
+	width: 480px;
+	padding: 24px 4px 24px 40px; /* top right bottom left */
+	display: center;
+}
+
+.destaque{
+	font-size: 18px;
+	color: #FFF;
+	font-weight: 200;
 }
 
 .logo{
@@ -61,6 +108,17 @@ li{
 	width: 243px;
 }
 
-.icon_serv{
-	
+.services{
+	width: 264px;
+	float: left;
+	margin-right: 24px;
+}
+
+.services:last-child{
+	margin-right: 0;
+}
+
+.texto_serv{
+	text-align: justify;
+	font-size: 16px;
 }
